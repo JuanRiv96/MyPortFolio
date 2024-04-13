@@ -37,10 +37,10 @@ export const Projects = () => {
         <h1 className="text-left text-gray-800 text-pretty pb-20 font-bold text-4xl dark:text-white">
           Projects
         </h1>
-        <div className="">
+        <div className="space-y-10">
           {projects?.map((item, idx) => {
               return (
-                <div key={idx} className="flex flex-col lg:flex lg:flex-row lg:items-start lg:space-x-24 space-y-10">
+                <div key={idx} className="flex flex-col lg:flex lg:flex-row lg:items-start lg:space-x-24">
                   <NextImage
                     className="
                     object-cover object-top 
