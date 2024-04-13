@@ -2,6 +2,7 @@ import NextImage from "next/image";
 import { Link, Button } from "@nextui-org/react";
 import { MyProjects } from "@/interfaces";
 import sleeptracker from "../../public/sleeptracker.webp";
+import pokedex from "../../public/pokedex.webp";
 import { GrGithub } from "react-icons/gr";
 
 const projects: MyProjects[] = [
@@ -10,8 +11,16 @@ const projects: MyProjects[] = [
     href: "https://github.com/JuanRiv96/sleep-tracker",
     name: "Sleep Tracker App", 
     deploy:"https://sleep-tracker-two.vercel.app/",
-    description: "SleepTracker is a web app that helps you to control and obtain data about your sleep"
+    description: "SleepTracker is a web app that helps you to control and obtain data about your sleep."
+  },
+  {
+    img: pokedex, 
+    href: "https://github.com/JuanRiv96/Pokedex",
+    name: "Pokedex App", 
+    deploy:"https://pokedex-chi-roan.vercel.app",
+    description: "Pokedex App is an application that allows you to view a list of pokemon, view the details of each of them and create your own pokemon."
   }
+
 ];
 
 export const Projects = () => {
@@ -25,10 +34,9 @@ export const Projects = () => {
             xl:max-w-5xl
             lg:max-w-4xl
             md:max-w-2xl md:px-0">
-        <h1 className="text-left text-gray-800 text-pretty font-bold text-4xl dark:text-white">
+        <h1 className="text-left text-gray-800 text-pretty pb-20 font-bold text-4xl dark:text-white">
           Projects
         </h1>
-        <hr className="w-6 mx-auto my-6 md:my-8"></hr>
         <div className="">
           {projects?.map((item, idx) => {
               return (

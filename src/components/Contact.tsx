@@ -31,10 +31,10 @@ export const Contact = () => {
             lg:max-w-4xl
             md:max-w-2xl md:px-0"
          >
-            <h1 className="text-left text-gray-800 text-pretty font-bold text-4xl dark:text-white">
+            <h1 className="text-left text-gray-800 text-pretty pb-20 font-bold text-4xl dark:text-white">
                 Contact
             </h1>
-            <hr className="w-6 mx-auto my-6 md:my-8"></hr>
+            
             <div className="flex flex-col lg:flex lg:flex-row lg:items-start lg:space-x-24">
                 <Card className="
                     w-full 

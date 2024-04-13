@@ -57,9 +57,7 @@ export const About = () => {
             lg:max-w-4xl
             md:max-w-2xl md:px-0"
         >
-            <h1 className="text-start text-pretty font-bold text-4xl dark:text-neutral-100">About me.</h1>
-            <hr className="w-6 mx-auto my-6 md:my-8"></hr>
-
+            <h1 className="text-start text-pretty font-bold pb-16 text-4xl dark:text-neutral-100">About me.</h1>
             <div className="
                 space-y-14 
                 flex flex-col justify-center 
