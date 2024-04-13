@@ -40,7 +40,7 @@ export const Projects = () => {
         <div className="">
           {projects?.map((item, idx) => {
               return (
-                <div key={idx} className="flex flex-col lg:flex lg:flex-row lg:items-start lg:space-x-24">
+                <div key={idx} className="flex flex-col lg:flex lg:flex-row lg:items-start lg:space-x-24 space-y-10">
                   <NextImage
                     className="
                     object-cover object-top 
